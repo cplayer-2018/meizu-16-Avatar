@@ -1,0 +1,52 @@
+<!--
+	1.使用 FireFox 浏览器访问此文件。
+	2.依次点击“web 开发者”-“响应式设计模式”，并将尺寸设置为 520X520。
+	3.点击“截取视区(viewport)图像”(相机图标)，后点击保存路径并保存。
+-->
+
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+	<meta charset="UTF-8">
+	<style>
+	/* 整体背景样式 */
+	body {
+		background: #fbf2db;
+		margin: 2
+	}
+
+	/* 样式 */
+	div {
+		/* 边框背景 */
+		width: 500px; /*宽 500像素*/
+		height: 500px; /*高 500像素*/
+		margin: auto; /*外边框 居中*/
+		background-color: rgba(255,255,255,0.5); /*背景颜色*/
+		border-radius: 100%; /*边框半径*/
+		box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.2); /*阴影*/
+		/* 文字 */
+		text-align: center; /*文本对称*/
+	}
+	/* 文字 */
+	.text {
+		font-family: 'MFDianHei'; /*加载字体*/
+		font-size: 200px; /*字体大小*/
+		line-height: 500px; /*字体行高*/
+		background-image: linear-gradient(#aaf9c9, #69b4e5, #69b4e5, #807fe4); /*字体颜色*/
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent
+	}
+	/*导入字体*/
+	@font-face {
+		font-family: 'MFDianHei';
+		src: url('MFDianHei_Noncommercial-Thin.woff2') format('woff2')
+	}
+	</style>
+	<title>CPlayer</title>
+</head>
+<body>
+
+<div><text class="text"><b>16</b></text></div>
+
+</body>
+</html>
